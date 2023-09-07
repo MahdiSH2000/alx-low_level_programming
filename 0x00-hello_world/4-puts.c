@@ -1,11 +1,12 @@
 #include <stdio.h>
+
 /**
  * main - entry point
- * Description :  The main function is the entry point of the program.
  *
- * return - always 0 (success)
- * description : return 0 on successful execution.
- */
+ * Description: A C program that print with put function
+ *
+ * Return: Always 0
+*/
 int main(void)
 {
 
