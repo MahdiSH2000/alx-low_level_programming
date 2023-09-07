@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -s $CFILE > c | tr ".s" ".c"
+gcc -S $CFILE > c | tr ".s" ".c"
