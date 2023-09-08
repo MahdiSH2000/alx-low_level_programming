@@ -12,29 +12,29 @@ int main(void)
 
 	while (i <= 9)
 	{
-		o = 0;
-		while (o <= 9)
-		{
-			p = 0;
-				while (p <= 9)
-				{
-					if (i != o && i < o && o != p && o < p)
-					{
-						putchar(i + 48);
-						putchar(o + 48);
-						putchar(p + 48);
+	o = 0;
+	while (o <= 9)
+	{
+	p = 0;
+	while (p <= 9)
+	{
+	if (i != o && i < o && o != p && o < p)
+	{
+	putchar(i + 48);
+	putchar(o + 48);
+	putchar(p + 48);
 
-						if (i + o + p != 24)
-						{
-							putchar(',');
-							putchar(' ');
-						}
-					}
-					p++;
-				}
-			o++;
-		}
-		i++;
+	if (i + o + p != 24)
+	{
+	putchar(',');
+	putchar(' ');
+	}
+	}
+	p++;
+	}
+	o++;
+	}
+	i++;
 	}
 	putchar('\n');
 
