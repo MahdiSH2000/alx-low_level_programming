@@ -2,11 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *  main - entry point
- *  description: A C program that print with put function
+ * main - entry point
+ * description: A C program that print with put function
+ * Return: always 0
  */
-
-/* Return: always 0 */
 int main(void)
 {
 	int n;
