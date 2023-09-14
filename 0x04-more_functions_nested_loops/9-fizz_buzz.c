@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - fonction
- * main: emtry point
- * Return: void
+ * main: entry point
+ * Return: 0
  */
 int main(void)
 {
