@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_line - fonction
- * print_line: fonction that print sign
- * @n: parametre
+ * print_triangle - fonction
+ * print_triangle: fonction that print sign
+ * @size: parametre
  *
  * Return: void
  */
